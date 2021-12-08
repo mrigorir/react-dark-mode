@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { ChangeEventHandler } from 'react';
 import '../styles/darkMode.css';
 
 const setDark = () => {
@@ -11,17 +11,16 @@ const setLight = () => {
   document.documentElement.setAttribute('data-theme', 'light');
 }
 
-const DarkMode = () => {
-  useEffect(() => {
-    const theme = localStorage.getItem('theme');
-    console.log(theme);
-  }, []);
+const handleTheme: ChangeEventHandler<HTMLInputElement> = (e) => {
+  e.target.checked ? setDark() : setLight();
+}
 
+const DarkMode = () => {
   return (
     <div className='toggle-theme-wrapper'>
       <span>☀️</span>
       <label className='toggle-theme' htmlFor='checkbox'>
-        <input type="checkbox" id="checkbox" />
+        <input type="checkbox" id="checkbox" onChange={handleTheme} />
         <div className='slider round'> </div>
       </label>
       <span>🌒</span>
