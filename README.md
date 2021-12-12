@@ -1,31 +1,27 @@
-# React Todo App
+# React Dark Mode
 
-> This project has a complete version of todo features. It was created using react-redux to manage all of the todo's constant changes (like CRUD events), browser's Local Storage to make data persistant, React drag-and-drop to give it a more animated action, and react-bootstrap to achieve a great look, and API features to get random pictures for each todo.
+> This mini app presents a basic how-to-set a dark mode, useing predefined CSS root, javaScrips functions and window.matchmedia to check browser's preferences on every reload, preserving the theme mode on localStorage.
 
 ## This project was built with:
 
  - React.
 
- - React-Redux.
-
  - Browser's Local Storage.
 
- - React-boostrap (5.1 version).
+ - React-boostrap.
 
  - React's own Font Awesome.
 
- - Pixabay's images API.
+ - TypeScript.
 
 ## Image Preview
 ![Screenshot Main Page](src/assets/images/capture.jpg)
-
-## :star: [Live Demo](https://hopeful-villani-16dc54.netlify.app) :star:
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
 
-- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/react-todo-app)
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/react-dark-mode)
 
 - Click on a button named `code`
 
@@ -37,7 +33,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
-  `$ git clone git@github.com:mrigorir/react-todo-app.git` <em>Press Enter key</em><br>
+  `$ git clone git@github.com:mrigorir/react-dark-mode` <em>Press Enter key</em><br>
 
 - Your local copy will be created.
 
@@ -95,7 +91,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Creation inspired on [react-beautiful-dnd](https://react-beautiful-dnd.netlify.app/?path=/story/single-vertical-list--basic)
+Special thanks to **[Alex Eagleson](https://dev.to/alexeagleson)** for this [amazing curse](https://dev.to/alexeagleson/how-to-create-a-dark-mode-component-in-react-3ibg)
 
 
 ## 📝 License
