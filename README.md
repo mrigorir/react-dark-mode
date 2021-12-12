@@ -17,7 +17,7 @@
  - Pixabay's images API.
 
 ## Image Preview
-![Screenshot Main Page](src/assests/images/capture.jpg)
+![Screenshot Main Page](src/assets/images/capture.jpg)
 
 ## :star: [Live Demo](https://hopeful-villani-16dc54.netlify.app) :star:
 
